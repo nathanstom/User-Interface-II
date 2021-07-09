@@ -1,0 +1,175 @@
+/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+
+h1 {
+	padding: 2%;
+	color: white;
+	font-size: 40px;
+	font-family: 'Anton', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+p{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+nav {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+nav a {
+	padding: 20px;
+	text-decoration: none;
+	font-family: sans-serif;
+	background: red;
+	color: white;
+}
+
+
+.top {
+	background: black;
+}
+
+
+.desctxttop {
+	margin-bottom: 2%;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+
+.bigimg {
+	background:url(https://images.unsplash.com/photo-1604199840257-44f7f7dfdd0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80);
+	height: 450px;
+	width:100%;
+	padding:10px;
+	margin-bottom: 3%;
+	box-sizing:border-box;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.bottomimgs {
+	margin-bottom: 3%;
+	margin-left: 1%;
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.bottomimg1{
+	background:url(https://images.unsplash.com/photo-1568854909420-d3e4a2bdbc78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	width: 20%;
+
+}
+
+.bottomimg2{
+	background:url(https://images.unsplash.com/photo-1619067321513-bb55a012e9b2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ5fHxtdXNpY3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 20%;
+
+}
+
+.bottomimg3{
+	background:url(https://images.unsplash.com/photo-1529798856831-427dfd0a1ab1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZpbG18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	height: 500px;
+	width: 20%;
+}
+
+.bottomimg4{
+	background:url(https://images.unsplash.com/photo-1551740132-1d0c02b8275e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGd1aXRhcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 20%;
+}
+
+.desctxtbottom {
+	width: 1%;
+	padding-top: 200px;
+}
+
+.desctxtbottom p {
+	text-align: center;
+	width: 400px;
+}
+
+
+
+.footer {
+	background-color: black;
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.footer a {
+	padding: 20px;
+	text-decoration: none;
+	font-family: sans-serif;
+	background: red;
+	color: white;
+}
