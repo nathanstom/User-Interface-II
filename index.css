@@ -47,6 +47,9 @@ table {
 
 
 
+body {
+	width: 100%;
+}
 
 h1 {
 	padding: 2%;
@@ -172,4 +175,85 @@ nav a {
 	font-family: sans-serif;
 	background: red;
 	color: white;
+}
+
+
+
+
+/* TABLETS */
+@media(max-width: 800px){
+	body {
+		width: 100%;
+	}
+	.top {
+		width: 100%;
+	}
+	.topbuttons {
+		display: flex;
+		flex-direction: column;
+	}
+	.desctxttop {
+		text-align: center;
+	}
+	.bottomimgs {
+		margin-left: 0%;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.bottomimgs .bottomimg1 {
+		background-size: cover;
+	}
+	.bottomimgs div {
+		width: 47.5%;
+		margin-bottom: 16px;
+	} 
+	.bottomimgs .desctxtbottom {
+		width: 100%;
+	}
+	.desctxtbottom {
+		padding-top: 16px;
+	}
+	.desctxtbottom p {
+		width: 100%;
+	}
+}
+
+
+/* PHONES */
+@media(max-width: 500px){
+	body {
+		width: 100%;
+	}
+	.top {
+		width: 100%;
+	}
+	.topbuttons {
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.desctxttop {
+		text-align: center;
+	}
+	.bottomimgs {
+		margin-left: 0%;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.bottomimgs div {
+		width: 47.5%;
+		margin-bottom: 16px;
+	} 
+	.bottomimgs .desctxtbottom {
+		width: 100%;
+		
+	}
+	.desctxtbottom {
+		padding-top: 16px;
+	}
+	.desctxtbottom p {
+		width: 100%;
+	}
 }
